@@ -47,6 +47,14 @@
 </head>
 <body class="bg-gray-100 p-0 sm:p-4 md:p-8">
 
+    <!-- Download/Print Button -->
+    <div class="no-print fixed top-4 right-4 z-10">
+        <button onclick="window.print()" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg shadow-lg transition-colors duration-200 flex items-center space-x-2">
+            <i class="fas fa-download"></i>
+            <span>Download PDF</span>
+        </button>
+    </div>
+
     <div class="main-container max-w-4xl mx-auto bg-white rounded-lg shadow-2xl border border-gray-200 overflow-hidden">
         <div class="flex flex-col md:flex-row">
             <!-- Left Column -->
@@ -104,6 +112,10 @@
                                 <h3 class="font-semibold text-gray-700 mb-1">Architecture</h3>
                                 <p class="text-gray-600">Microservices, DDD, Design Patterns, SOLID</p>
                             </div>
+                            <div>
+                                <h3 class="font-semibold text-gray-700 mb-1">AI Tools (Learning)</h3>
+                                <p class="text-gray-600">ChatGPT, GitHub Copilot, Claude, TensorFlow Basics, Jupyter Notebooks</p>
+                            </div>
                         </div>
                     </div>
 
@@ -113,7 +125,7 @@
                             <div>
                                 <h3 class="font-semibold text-gray-800">MSc. Software Engineering</h3>
                                 <p class="text-gray-600">Universidad de los Andes</p>
-                                <p class="text-gray-500 italic">In progress (Expected 2025)</p>
+                                <p class="text-gray-500 italic">2025</p>
                             </div>
                             <div>
                                 <h3 class="font-semibold text-gray-800">Diploma in Software Architecture</h3>
@@ -135,7 +147,10 @@
                 <section>
                     <h2 class="section-title">PROFESSIONAL SUMMARY</h2>
                     <p class="text-gray-700 text-sm leading-relaxed">
-                        Senior Software Engineer with over 14 years of experience designing, developing, and deploying scalable, high-performance software solutions. Expert in backend development with Java and the Spring ecosystem, microservices architecture, and cloud technologies (GCP, AWS, Azure). Currently completing a Master's in Software Engineering to complement practical experience with advanced theoretical foundations. Seeking to contribute technical leadership and architectural vision in Senior Engineer, Specialist, or Software Architect roles.
+                        Senior Software Engineer with over 14 years of experience designing, developing, and deploying scalable, high-performance software solutions. Expert in backend development with Java and the Spring ecosystem, microservices architecture, and cloud technologies (GCP, AWS, Azure). Currently completing a Master's in Software Engineering to complement practical experience with advanced theoretical foundations.
+                    </p>
+                    <p class="text-gray-700 text-sm leading-relaxed mt-3">
+                        AI enthusiast and self-taught in the application of Artificial Intelligence to software engineering, exploring innovative tools and techniques to optimize development processes, code quality, and intelligent architectures. Seeking to contribute technical leadership and architectural vision in Senior Engineer, Specialist, or Software Architect roles.
                     </p>
                 </section>
 
@@ -150,6 +165,7 @@
                             </div>
                             <p class="font-semibold text-gray-700">Visa (Bogotá, Colombia)</p>
                             <ul class="list-disc list-outside mt-2 ml-4 space-y-1 text-gray-600 leading-relaxed">
+                                <li>Currently supporting the Alias Directory and Analytics solutions inside the organization</li>
                                 <li>Designed and developed key components for new cross-border and domestic payment solutions, using Java 17, Spring Boot, and microservices deployed on GCP.</li>
                                 <li>Automated deployments to development and testing environments using CI/CD tools like ArgoCD and Concourse, reducing delivery times.</li>
                                 <li>Led the resolution of critical production incidents, coordinating teams to diagnose and solve complex platform issues.</li>
